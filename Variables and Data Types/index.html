@@ -7,7 +7,7 @@
 </head>
 <body>
     <script>
-      // string data type
+       // string data type
       console.log ("You are amazing!");
       
       // number data type
@@ -23,9 +23,36 @@
       console.log(sentence);
       console.log(num);
       
-      // null data type
+      // null data type: means that when something doesn't exist. It has a value of NOTHING
       var emptyStuff = null;
       console.log(emptyStuff);
+
+
+      /* underfined data type: means that a variable is not defined.
+      Here we are declaring a variable, not defining a variable. Here the "japan" variable has a value of underfined */
+
+      var japan;
+      console.log(japan);
+
+      /* all data types if they're not assigned by default have a value of underfined in Javascript so they have a value of underfined by deafault and if we are assigning it something that values changes */
+
+     // objects: They are more advanced data types
+
+     // Array: arrays are to store multiple things. We create array with opening and closing brackets[]
+     var fruits = ["apple", "cherry", "banana", true, false, 57.46, sentence];
+     var nums = [1, 2, 3]
+     console.log(fruits);
+
+     // object: to declaring an object you use curly brackets {}
+     var tobias = {
+         "name": "tobias von jons",
+         "age": 35,
+         "profession": "teacher"
+     }
+     console.log(tobias);
+        
+     /* a value can be an array as well so an array inside of this object.
+     objects are very flexible data types */
   </script>
 </body>
 </html>
